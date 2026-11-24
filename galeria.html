@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria | Central do Futebol</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>⚽ Central do Futebol</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="historia.html">História</a>
+      <a href="regras.html">Regras</a>
+      <a href="posicoes.html">Posições</a>
+      <a href="campeonatos.html">Campeonatos</a>
+      <a href="resultados.html">Resultados</a>
+      <a href="times.html">Times</a>
+      <a href="jogadores.html">Jogadores</a>
+      <a href="treinamento.html">Treinamento</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="tabela.html">Tabela</a>
+      <a href="noticias.html">Notícias</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cartao">
+      <p class="etiqueta">Galeria</p>
+      <h2 id="titulo-principal">Momentos do futebol</h2>
+      <p class="destaque">O futebol também é feito de imagens, torcida e grandes momentos.</p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 20px 0;">
+        <figure style="margin: 0; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 10px;">
+          <img src="img/gol.jpeg" alt="Comemoração de gol decisivo no estádio" style="width: 100%; height: 150px; object-fit: cover; border-radius: 6px;">
+          <figcaption style="margin-top: 8px; font-size: 0.95rem;"><strong>Gol decisivo:</strong> A emoção de balançar as redes no estádio lotado.</figcaption>
+        </figure>
+
+        <figure style="margin: 0; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 10px;">
+          <img src="img/torcida.jpeg" alt="Torcida vibrando nas arquibancadas" style="width: 100%; height: 150px; object-fit: cover; border-radius: 6px;">
+          <figcaption style="margin-top: 8px; font-size: 0.95rem;"><strong>Festa nas arquibancadas:</strong> Bandeiras e apoio incondicional da torcida.</figcaption>
+        </figure>
+
+      </div>
+
+      <button onclick="mostrarAviso()">Clique aqui</button>
+      <p id="resposta"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Central do Futebol</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

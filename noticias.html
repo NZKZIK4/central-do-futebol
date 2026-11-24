@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notícias | Central do Futebol</title><link rel="stylesheet" href="css/style.css"></head>
+<body><header><h1>⚽ Central do Futebol</h1><nav><a href="index.html">Início</a>
+<a href="historia.html">História</a>
+<a href="regras.html">Regras</a>
+<a href="posicoes.html">Posições</a>
+<a href="campeonatos.html">Campeonatos</a>
+<a href="resultados.html">Resultados</a>
+<a href="times.html">Times</a>
+<a href="jogadores.html">Jogadores</a>
+<a href="treinamento.html">Treinamento</a>
+<a href="quiz.html">Quiz</a>
+<a href="tabela.html">Tabela</a>
+<a href="noticias.html">Notícias</a>
+<a href="perfil.html">Perfil</a>
+<a href="galeria.html">Galeria</a>
+<a href="contato.html">Contato</a></nav></header>
+<main>
+  <section class="cartao">
+    <p class="etiqueta">Condições de Jogo</p>
+    <h2 id="titulo-principal">Clima nos Estádios (Tempo Real)</h2>
+    <p class="destaque">Consulte a temperatura e velocidade do vento antes da bola rolar.</p>
+    
+    <select id="cidade-estadio">
+      <option value="-22.9121,-43.2302">Maracanã (Rio de Janeiro)</option>
+      <option value="-23.5275,-46.6784">Allianz Parque (São Paulo)</option>
+      <option value="-25.4484,-49.2769">Ligga Arena (Curitiba)</option>
+      <option value="51.5549,-0.1084">Emirates Stadium (Londres)</option>
+    </select>
+    <button onclick="buscarClima()">Verificar Clima</button>
+    
+    <div id="resultado-clima" class="resultado" style="margin-top: 15px;"></div>
+  </section>
+</main>
